@@ -9,7 +9,7 @@ We propose to jointly optimize these two submodules to effectively exploit the s
 
 
 ## Model
-To download the pre-trained GenNet models:
+To download the pre-trained EnhNet models: https://drive.google.com/file/d/1q4H8xfgaGiVE4SqgtoNTbPa_RUOE9AmD/view?usp=sharing and pre-trained GenNet models: https://drive.google.com/file/d/1iS8fICkYK96x6VYtZ5wKM2lMaoCfPkf_/view?usp=sharing. Just unzip them and put them into folders ./EnhNet and ./GenNet, respectively. 
 
 ___
 
