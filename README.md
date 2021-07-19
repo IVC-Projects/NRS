@@ -2,7 +2,7 @@
 DANdan Ding*, Xiang Gao*, Chenran Tang*, Zhan Ma**<br>
 \* Hangzhou Normal University<br>
 ** Visionular Inc.<br>
-——————
+___
 
 Introduction:
 We propose to jointly optimize these two submodules to effectively exploit the spatiotemporal correlations for better characterization of structural and texture variations of pixel blocks. Specifically, we develop two deep neural networks
