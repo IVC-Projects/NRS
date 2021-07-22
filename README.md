@@ -18,7 +18,9 @@ ___
 
 ## Usage
 Run the training script for EnhNet：
+```python
 python3 TRAIN_CNNX.py
+```
 
 Run the testing script for EnhNet：
 ```python
