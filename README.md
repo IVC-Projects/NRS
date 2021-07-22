@@ -1,7 +1,7 @@
 ## Neural Reference Synthesis for Inter Frame Coding
-DANdan Ding^1^*, Xiang Gao*, Chenran Tang*, Zhan Ma**<br>
+DANdan Ding*, Xiang Gao*, Chenran Tang*, Zhan Ma**<br>
 \* Hangzhou Normal University<br>
-** Visionular Inc.<br>
+** Nanjing University<br>
 ___
 
 ## Introduction:
@@ -18,18 +18,20 @@ Run the training script for EnhNet：
 python3 TRAIN_CNNX.py
 
 Run the testing script for EnhNet：
+···python
 python3 Test_CNNX.py
+···
 
-Run the training script for step 1(GenNet):
+Run the training script for step 1 (GenNet):
 python3 GenNet_train_step1.py --subset=train
 
-Run the training script for step 2(GenNet):
+Run the training script for step 2 (GenNet):
 python3 GenNet_train_step2.py --subset=train --pretrained_model_checkpoint_path=./checkpoints/step1
 
-Run the training script for step 3(GenNet):
+Run the training script for step 3 (GenNet):
 python3 GenNet_train_step2.py --subset=train --pretrained_model_checkpoint_path=./checkpoints/step2
 
-Run your own pair of frames(GenNet):
+Run your own pair of frames (GenNet):
 python3 test.py --pretrained_model_checkpoint_path=./checkpoints/step2 --first=./first.png --second=./second.png --out=./out.png
 
 ___
