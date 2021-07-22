@@ -1,5 +1,5 @@
 ## Neural Reference Synthesis for Inter Frame Coding
-DANdan Ding*, Xiang Gao*, Chenran Tang*, Zhan Ma**<br>
+DANdan Ding^1^*, Xiang Gao*, Chenran Tang*, Zhan Ma**<br>
 \* Hangzhou Normal University<br>
 ** Visionular Inc.<br>
 ___
