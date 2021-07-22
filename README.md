@@ -18,7 +18,8 @@ Run the training script for EnhNet：
 python3 TRAIN_CNNX.py
 
 Run the testing script for EnhNet：
-···python
+
+···Java
 python3 Test_CNNX.py
 ···
 
